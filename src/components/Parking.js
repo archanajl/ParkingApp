@@ -3,7 +3,6 @@ import Header from './Header'
 import ParkingSlots from './ParkingSlots'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import _ from 'lodash';
 
 class Parking extends React.Component{
