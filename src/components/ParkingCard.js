@@ -10,6 +10,7 @@ import RemoveCircleIcon from '@material-ui/icons/RemoveCircle';
 
 
 
+
 export default function ParkingCard(props) {
 
     const handleAddFavorite = () =>{
@@ -22,6 +23,7 @@ export default function ParkingCard(props) {
     }
   
   return (
+
     <Card>
         <CardActions disableSpacing>
         <IconButton aria-label="add to favorites" onClick={(e) => {handleAddFavorite()}}>
@@ -48,5 +50,6 @@ export default function ParkingCard(props) {
       
       
     </Card>
+
   );
 }

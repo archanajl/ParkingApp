@@ -76,12 +76,15 @@ body{
     opacity: 0.01;
     transition: opacity 100ms;
   }
-@media(min-width: 45rem){
-    .grid-item{
-        flex-direction: row;
+  @media screen and (max-width: 600px) { 
+    .grid-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+                flex-direction: column;
     }
-    .grid-item__input{
-    
-        margin-right : 1.6rem;
-    }
+
 }
